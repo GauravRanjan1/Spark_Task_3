@@ -1,0 +1,85 @@
+.cont_us{
+    background: url('../assets/2bg.jpg') no-repeat;
+    background-size: 100% 100%;
+    padding: 30px;
+}
+
+.text_line h2, 
+.text_line p{
+    text-align: center;
+}
+
+.text_line h2 span{
+    color: rgb(233, 12, 23);
+    font-weight: 700;
+}
+
+.text_line h2{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 50px;
+}
+
+.text_line p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 14px;
+    color: white;
+}
+
+.form_in{
+    max-width: 400px;
+    padding: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.548);
+    box-shadow: 0 15px 60px rgba(0,0,0,0.1);
+    margin: 0px auto;
+    margin-top: 45px;
+}
+
+.input_bx{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input_bx input, 
+.input_bx textarea{
+    border: none;
+    width: 100%;
+    padding: 10px 5px;
+    border-bottom: 1px solid black;
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+}
+
+.change_btn{
+    border: none;
+    margin: 0;
+    padding: 8px 10px;
+}
+
+@media (max-width: 440px){
+    section.cont_us{
+        padding: 80px 10px;
+    }
+
+    .cont_us .text_line{
+        text-align: center;
+    }
+
+    .cont_us .text_line h2{
+        margin-bottom: 20px;
+    }
+
+    .cont_us .text_line p{
+        font-size: 0.9rem;
+    }
+
+    .change_btn {
+        padding: 10px 20px;
+    }
+}
